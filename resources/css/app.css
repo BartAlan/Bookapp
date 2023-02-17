@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-primary: ;
+    --color-secondary: #F0F0F0;
+}
+
+
+/* Layout */
+.ctn-event {
+    display: flex;
+    gap: 16px;
+    min-height: 32px;
+    background: red;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.event-flag {
+    width: 64px;
+    aspect-ratio: 1/1;
+    background:rgba(0, 0, 0, 0.75);
+}
+
+.ctn-event_infos {
+    flex: 1;
+    position: relative;
+    padding: 16px;
+}
+
+.event-date {
+    font-size: 16px;
+}
+
+.event-country {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.event-counter {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+}
